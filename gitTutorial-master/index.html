@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Tutorials</title>
+</head>
+<body>
+        
+    <h1>This is basic Commands of Git (Bash)</h1>
+   <p>'git init' -> initialization of a git repository INSIDE a project folder to be managed by git</p>
+    <p>'git status' -> display status of monitored / tracked files</p>
+    <p>'git add .' -> add all files to be tracked (individually -> 'git add filename') (= to 'stage' a file(s))</p>
+    <p>'git commit -m "..." -> to save a version of file(s) inside a branch with its commit name</p>
+    <p>'git branch' -> to view the branch(es) available ('*' -> current branch)</p>
+    <p>'git log' -> to view list of all commit(s) (last commit (HEAD) is on top of the list) </p>
+    <p>'git checkout (id of a commit)' -> to view a commit -> this commit becomes the HEAD but is no longer inside its branch anymore (cannot change and commit because this has no branch)</p>
+    <p>'git master' -> reentering master branch</p>
+    <p>'git reset --hard (id of commit that we want to use)' -> go to specified commit and  delete all commit(s) after that</p>
+    <p>'git checkout -- .' -> delete all unstaged changes and go to the  last commit</p>
+    <p>'git checkout -b (branch name)' -> create a new branch which have all commits in the previous branch</p>
+    <p>'git checkout master' = 'git master' -> change to (master) branch</p>
+    <p>'git merge (name of branch to be merged)' -> merge branches</p>
+    <p>'git branch -D (name of branch to be deleted)' -> delete a branch
+    to resolve conflict between merged branches -> better do that manually by editing lines ourselves then doing 'add .' and 'commit'</p>
+
+    
+</body>
+</html>

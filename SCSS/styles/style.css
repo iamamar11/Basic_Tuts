@@ -1,0 +1,39 @@
+header, .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: navy;
+  color: white;
+}
+
+header button, .contact button {
+  padding: 5px 10px;
+  margin-left: 10px;
+  border: 2px solid red;
+  border-radius: 5px;
+  font-size: large;
+  font-weight: bold;
+}
+
+header button:hover, .contact button:hover {
+  background-color: red;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.contact {
+  background-color: red;
+}
+/*# sourceMappingURL=style.css.map */
